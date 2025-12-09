@@ -1,0 +1,44 @@
+name: llm_arena_blind_test_arena
+description: "LLM Arena 盲測競技場: A comprehensive Flutter application for LLM benchmarking, analysis, and blind testing."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.4.0
+  fl_chart: ^0.65.0
+  google_fonts: ^6.1.0
+  intl: ^0.20.2 # Updated for null-safety and compatibility
+  http: ^1.1.0
+  uuid: ^4.2.0
+  path_provider: ^2.1.1
+  sqflite: ^2.3.0
+  universal_io: ^2.2.2
+  file_saver: ^0.2.11 # Added for file saving/downloading
+  file_picker: ^6.1.1 # Added for image upload
+  package_info_plus: ^5.0.1
+  mockito: ^5.6.1
+  build_runner: ^2.10.4
+  pub_semver: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  fonts:
+    - family: Noto Sans TC
+      fonts:
+        - asset: assets/fonts/NotoSansTC-Regular.ttf
+          weight: 400 # Regular weight
+        - asset: assets/fonts/NotoSansTC-Bold.ttf
+          weight: 700 # Bold weight

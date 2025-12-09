@@ -1,0 +1,4 @@
+{
+  "name": "Ollama Benchmark Suite",
+  "description": "A comprehensive benchmarking tool for local LLMs using Gemini as the evaluator (LLM-as-a-Judge)."
+}

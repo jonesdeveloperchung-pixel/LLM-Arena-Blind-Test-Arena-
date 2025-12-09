@@ -1,0 +1,6 @@
+{
+  "name": "reasoning_default_en",
+  "category": "reasoning",
+  "language": "en",
+  "text": "If A > B and B > C, what is the relationship between A and C? Explain the reasoning steps in detail."
+}

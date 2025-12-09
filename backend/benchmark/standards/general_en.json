@@ -1,0 +1,7 @@
+{
+  "name": "general_standard_en_v1",
+  "category": "general",
+  "language": "en",
+  "judge_prompt_template": "Please evaluate the quality of the response for the general language test based on fluency, coherence, and creativity. Rate each metric on a scale of 1-5 stars (5 stars is best). Provide your final score and detailed reasoning. Response content: {model_output_placeholder} Respond in JSON format: {\"score\": number, \"reasoning\": \"reason\", \"breakdown\": {\"fluency\": number, \"coherence\": number, \"creativity\": number}}",
+  "metrics": ["fluency", "coherence", "creativity"]
+}

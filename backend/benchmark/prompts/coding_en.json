@@ -1,0 +1,6 @@
+{
+  "name": "coding_default_en",
+  "category": "coding",
+  "language": "en",
+  "text": "Write a Python function to calculate the nth Fibonacci number and explain its time complexity."
+}

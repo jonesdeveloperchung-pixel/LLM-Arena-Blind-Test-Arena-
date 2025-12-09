@@ -1,0 +1,13 @@
+{
+    "@@locale": "zh_TW",
+    "benchmarkAppTitle": "模型能力評測",
+    "benchmarkCategoryReasoning": "推理",
+    "benchmarkCategoryCoding": "編碼",
+    "benchmarkCategoryVision": "視覺",
+    "benchmarkCategoryLanguage": "語言",
+    "benchmarkCategoryEmbedding": "嵌入",
+    "benchmarkSamplePrompt": "用於檢查推理能力的範例提示...",
+    "benchmarkJudgesAnalysis": "評審分析",
+    "benchmarkRunningStatus": "執行基準測試中...",
+    "benchmarkNoResults": "此類別尚無基準測試結果。請運行測試！"
+}

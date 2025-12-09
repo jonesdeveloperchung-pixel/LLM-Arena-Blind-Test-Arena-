@@ -1,0 +1,13 @@
+{
+    "@@locale": "en",
+    "benchmarkAppTitle": "Model Capability Benchmarking",
+    "benchmarkCategoryReasoning": "Reasoning",
+    "benchmarkCategoryCoding": "Coding",
+    "benchmarkCategoryVision": "Vision",
+    "benchmarkCategoryLanguage": "Language",
+    "benchmarkCategoryEmbedding": "Embedding",
+    "benchmarkSamplePrompt": "Sample prompt for reasoning capability check...",
+    "benchmarkJudgesAnalysis": "Judge's Analysis",
+    "benchmarkRunningStatus": "Running benchmark...",
+    "benchmarkNoResults": "No benchmark results yet for this category. Run a test!"
+}

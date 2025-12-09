@@ -1,0 +1,50 @@
+database:
+  auto_backup: true
+  backup_interval_hours: 24
+  path: ./db/pipeline.db
+  type: sqlite
+gemini:
+  api_key: ''
+  enabled: false
+  fallback_on_ollama_failure: true
+  model: gemini-2.0-flash-exp
+ollama:
+  enabled: true
+  model: llama3.2-vision:latest
+  retry_attempts: 3
+  retry_delay_seconds: 5
+  timeout_seconds: 30
+  url: http://localhost:11434
+output:
+  description_languages:
+  - zh-TW
+  generate_thumbnail: true
+  save_detection_raw: true
+  save_metadata: true
+  thumbnail_max_size: 1200
+paths:
+  database: ./db/pipeline.db
+  failed: ./output/_failed
+  input: ./input
+  logs: ./logs
+  output: ./output
+  temp: ./temp
+  templates: ./templates
+processing:
+  auto_approve_confidence: 0.85
+  enable_daemon: false
+  max_concurrent_jobs: 4
+  watch_interval_seconds: 5
+security:
+  allowed_extensions:
+  - .jpg
+  - .jpeg
+  - .png
+  - .webp
+  max_file_size_mb: 50
+  sanitize_filenames: true
+system:
+  language: zh-TW
+  log_level: INFO
+  timezone: Asia/Taipei
+  invalid indentation: test

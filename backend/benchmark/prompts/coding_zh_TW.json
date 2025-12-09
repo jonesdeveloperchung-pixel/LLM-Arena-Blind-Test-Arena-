@@ -1,0 +1,6 @@
+{
+  "name": "coding_default_zh_TW",
+  "category": "coding",
+  "language": "zh_TW",
+  "text": "請用 Python 寫一個函式來計算斐波那契數列的第 n 項，並解釋時間複雜度。"
+}

@@ -1,0 +1,42 @@
+tools:
+  - name: ollama_check_health
+    description: Checks if the Ollama server is running.
+    command: python backend/wrappers/ollama_health.py
+    parameters: []
+  - name: ollama_generate_description
+    description: Generates an image description using Ollama (or Gemini fallback).
+    command: python backend/wrappers/ollama_generate.py --image_path {image_path} --prompt "{prompt}" --model "{model}"
+    parameters:
+      - name: image_path
+        type: string
+        description: The path to the image file.
+      - name: prompt
+        type: string
+        description: The prompt for generating the description.
+        optional: true
+      - name: model
+        type: string
+        description: The Ollama model to use.
+        optional: true
+  - name: pipeline_run
+    description: Runs the entire image processing pipeline.
+    command: python backend/pipeline.py
+    parameters: []
+  - name: pipeline_scan_input
+    description: Scans the input directory for images and returns a list of their paths.
+    command: python backend/wrappers/pipeline_scan.py
+    parameters: []
+  - name: run_full_benchmark
+    description: Runs a full benchmark for a given Ollama model across all categories.
+    command: python backend/benchmark.py {model_name}
+    parameters:
+      - name: model_name
+        type: string
+        description: The name of the Ollama model to benchmark.
+  - name: apply_config_preset
+    description: Applies a configuration preset to the project's jade_config.yaml file.
+    command: python backend/config_presets.py {preset_name}
+    parameters:
+      - name: preset_name
+        type: string
+        description: The name of the preset to apply (e.g., 'quick', 'cpu', 'gpu').

@@ -1,0 +1,14 @@
+[Unit]
+Description=Ollama Image Processing Pipeline
+After=network.target
+
+[Service]
+Type=simple
+User=ollama
+WorkingDirectory=/opt/ollama-pipeline/backend
+ExecStart=/usr/bin/python3 daemon.py
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+{
+  "name": "embedding_default_en",
+  "category": "embedding",
+  "language": "en",
+  "text": "Calculate the semantic similarity between the following two sentences:\n1. The cat is sleeping.\n2. The kitten is resting."
+}

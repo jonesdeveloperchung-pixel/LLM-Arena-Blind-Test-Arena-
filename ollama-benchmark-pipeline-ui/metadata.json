@@ -1,0 +1,4 @@
+{
+  "name": "Ollama Benchmark Pipeline UI",
+  "description": "A web-based review interface for the Ollama benchmarking and automation pipeline. Features queue management, image review, and optional Gemini fallback."
+}

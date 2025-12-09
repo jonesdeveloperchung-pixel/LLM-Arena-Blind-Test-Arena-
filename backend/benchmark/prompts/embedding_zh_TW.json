@@ -1,0 +1,6 @@
+{
+  "name": "embedding_default_zh_TW",
+  "category": "embedding",
+  "language": "zh_TW",
+  "text": "計算以下兩個句子的語義相似度：\n1. 貓在睡覺。\n2. 小貓正在休息。"
+}

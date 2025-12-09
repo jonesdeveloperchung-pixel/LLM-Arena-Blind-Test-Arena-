@@ -1,0 +1,16 @@
+# Core Dependencies
+pyyaml>=6.0.1,<7.0
+pillow>=10.0.1,<11.0
+requests>=2.31.0,<3.0
+
+# Phase 2: Daemon
+watchdog>=3.0.0,<4.0
+
+# API Server
+uvicorn>=0.23.2,<0.24.0
+fastapi>=0.103.2,<0.104.0
+pydantic>=2.4.2,<3.0.0
+python-multipart>=0.0.6,<0.0.7
+
+# Phase 3: Fallback (optional)
+# google-generativeai>=0.3.0 # Uncomment if actually using Gemini API

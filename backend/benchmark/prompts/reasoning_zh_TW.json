@@ -1,0 +1,6 @@
+{
+  "name": "reasoning_default_zh_TW",
+  "category": "reasoning",
+  "language": "zh_TW",
+  "text": "如果 A > B 且 B > C，那麼 A 和 C 的關係是什麼？請詳細說明推理步驟。"
+}

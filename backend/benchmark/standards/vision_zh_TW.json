@@ -1,0 +1,7 @@
+{
+  "name": "vision_standard_zh_TW_v1",
+  "category": "vision",
+  "language": "zh_TW",
+  "judge_prompt_template": "請根據準確性、深度和與圖像的一致性評估此視覺測試回應的品質。每個指標請給予 1-5 星（5 星為最佳）。請提供您的最終分數和詳細推理。回應內容：{model_output_placeholder} 請以 JSON 格式回應：{{\"score\": 數字, \"reasoning\": \"理由\", \"breakdown\": {\\\"準確性\\\": 數字, \\\"深度\\\": 數字, \\\"一致性\\\": 數字}}}}",
+  "metrics": ["準確性", "深度", "一致性"]
+}

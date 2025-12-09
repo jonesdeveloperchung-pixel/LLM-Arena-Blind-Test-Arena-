@@ -1,0 +1,7 @@
+{
+  "name": "reasoning_standard_en_v1",
+  "category": "reasoning",
+  "language": "en",
+  "judge_prompt_template": "Please evaluate the quality of the response for the reasoning test based on accuracy, step clarity, and consistency. Rate each metric on a scale of 1-5 stars (5 stars is best). Provide your final score and detailed reasoning. Response content: {model_output_placeholder} Respond in JSON format: {\"score\": number, \"reasoning\": \"reason\", \"breakdown\": {\"accuracy\": number, \"step_clarity\": number, \"consistency\": number}}",
+  "metrics": ["accuracy", "step_clarity", "consistency"]
+}
