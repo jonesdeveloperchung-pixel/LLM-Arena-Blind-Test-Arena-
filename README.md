@@ -94,22 +94,16 @@ cd Benchmarking_Ollama_Models/
 | 文件 | 用途 |
 |------|------|
 | [QUICK_START.zh-TW.md](./QUICK_START.zh-TW.md) | 快速上手指南 |
-| [Design_Specification.md](./Design_Specification.md) | 產品設計與功能概覽 |
 
 ### 👨‍💻 給開發者
 | 文件 | 用途 |
 |------|------|
-| [Design_Specification.md](./Design_Specification.md) | 完整設計規格 (含各階段進度) |
-| [PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md) | 專案架構總覽 (含詳細目錄樹) |
-| [DEVELOPMENT_LOG.md](./DEVELOPMENT_LOG.md) | 詳盡的開發過程與決策記錄 |
 | [backend/README.md](./backend/README.md) | 後端開發指南 |
 
 ### 🔬 給研究者
 | 文件 | 用途 |
 |------|------|
-| [Requirement_Specification.md](./Requirement_Specification.md) | 需求規格 (詳細功能需求) |
-| [LLM Capability Comparison.md](./LLM Capability Comparison.md) | 模型能力比較 |
-| [Overlay-Benchmarking_Spec_LLM_Performance.md](./Overlay-Benchmarking_Spec_LLM_Performance.md) | 評測對照表 |
+| (目前沒有專為研究者提供的公開文件) | (請參考程式碼庫進行研究) |
 
 ---
 
@@ -171,7 +165,7 @@ cd Benchmarking_Ollama_Models/
 ## 🆘 疑難排解
 
 **Q: FastAPI 或 Flutter 啟動失敗？**  
-A: 請檢查您的虛擬環境是否已激活，所有依賴是否已安裝，且後端與前端是否已重啟以載入最新變更。檢查 `DEVELOPMENT_LOG.md` 獲取常見錯誤的解決方案。
+A: 請檢查您的虛擬環境是否已激活，所有依賴是否已安裝，且後端與前端是否已重啟以載入最新變更。
 
 **完整疑難排解：** 查看 [QUICK_START.zh-TW.md](./QUICK_START.zh-TW.md#疑難排解)
 
@@ -180,7 +174,7 @@ A: 請檢查您的虛擬環境是否已激活，所有依賴是否已安裝，�
 ## 🤝 貢獻指南
 
 歡迎所有貢獻！請遵循以下流程：
-1.  **熟悉專案：** 閱讀 [Design_Specification.md](./Design_Specification.md) 和 [PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md)。
+1.  **熟悉專案：** (請參考程式碼庫進行研究)。
 2.  **環境設定：** 依照 [QUICK_START.zh-TW.md](./QUICK_START.zh-TW.md) 設置開發環境。
 3.  **遵循規範：** 參考現有程式碼風格，保持提交訊息清晰。
 4.  **提交變更：** 提交 Pull Request 至 `develop` 分支。

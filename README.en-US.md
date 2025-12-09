@@ -94,22 +94,16 @@ cd Benchmarking_Ollama_Models/
 | Document | Purpose |
 |------|------|
 | [QUICK_START.zh-TW.md](./QUICK_START.zh-TW.md) | Quick Start Guide |
-| [Design_Specification.md](./Design_Specification.md) | Product Design and Feature Overview |
 
 ### 👨‍💻 For Developers
 | Document | Purpose |
 |------|------|
-| [Design_Specification.md](./Design_Specification.md) | Full Design Specification (with phase progress) |
-| [PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md) | Project Architecture Overview (with detailed directory tree) |
-| [DEVELOPMENT_LOG.md](./DEVELOPMENT_LOG.md) | Detailed Development Process and Decision Records |
 | [backend/README.md](./backend/README.md) | Backend Development Guide |
 
 ### 🔬 For Researchers
 | Document | Purpose |
 |------|------|
-| [Requirement_Specification.md](./Requirement_Specification.md) | Requirements Specification (Detailed Functional Requirements) |
-| [LLM Capability Comparison.md](./LLM Capability Comparison.md) | LLM Capability Comparison |
-| [Overlay-Benchmarking_Spec_LLM_Performance.md](./Overlay-Benchmarking_Spec_LLM_Performance.md) | Benchmarking Comparison Table |
+| (No public documents available for researchers currently) | (Please refer to the codebase for research) |
 
 ---
 
@@ -163,7 +157,7 @@ cd Benchmarking_Ollama_Models/
 ## 🆘 Troubleshooting
 
 **Q: FastAPI or Flutter fails to start?**
-A: Please check if your virtual environment is activated, all dependencies are installed, and both backend and frontend have been restarted to load the latest changes. Check `DEVELOPMENT_LOG.md` for solutions to common errors.
+A: Please check if your virtual environment is activated, all dependencies are installed, and both backend and frontend have been restarted to load the latest changes.
 
 **Full Troubleshooting:** See [QUICK_START.zh-TW.md](./QUICK_START.zh-TW.md#疑難排解)
 
@@ -172,7 +166,7 @@ A: Please check if your virtual environment is activated, all dependencies are i
 ## 🤝 Contribution Guide
 
 All contributions are welcome! Please follow this process:
-1.  **Familiarize yourself with the project:** Read [Design_Specification.md](./Design_Specification.md) and [PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md).
+1.  **Familiarize yourself with the project:** (Please refer to the codebase for research).
 2.  **Set up the environment:** Follow [QUICK_START.zh-TW.md](./QUICK_START.zh-TW.md) to set up your development environment.
 3.  **Follow best practices:** Refer to existing code styles and maintain clear commit messages.
 4.  **Submit changes:** Submit Pull Requests to the `develop` branch.
@@ -192,5 +186,5 @@ Thanks to all contributors for their support and dedication to this project!
 ---
 
 **Last Updated:** Project Completed!
-**Maintainer:** Backend Team
-**Contact:** Via GitHub Issues
+**Maintainer:** Jones Chung
+**Contact:** jones.developer.chung@gmail.com

@@ -31,18 +31,17 @@ python init_db.py
 python validate_config.py
 ```
 
-### 步驟 3: 啟動 UI (1 分鐘)
-```bash
-# 選項 A: 網頁版管道 UI
-cd ../ollama-benchmark-pipeline-ui
-npm install
-npm run dev
+### 步驟 3: 啟動 Flutter 桌面應用程式
 
-# 選項 B: 整合桌面應用程式 (Flutter)
-cd ../ollama_benchmark_flutter
-flutter pub get
-flutter run
-```
+1.  **安裝 Flutter 依賴**:
+    ```bash
+    cd ../llm_arena_blind_test_arena
+    flutter pub get
+    ```
+2.  **啟動 Flutter UI**:
+    ```bash
+    flutter run -d windows # 或 macos, linux, chrome, edge
+    ```
 
 **完成！** 🎉 
 
@@ -204,20 +203,8 @@ output:
 ## 🆘 取得協助
 
 - **文件：** 查看 `backend/README.md`
-- **測試計畫：** 參考 `backend/tests/PHASE_0_TEST_PLAN.md`
-- **設計規格：** 閱讀 `Design_Specification.md`
 - **問題回報：** 建立 GitHub Issue
 
 ---
 
-## 🎓 下一步學習
 
-1. **Phase 1：** 了解單次執行管道
-2. **Phase 2：** 探索守護程序與審核隊列
-3. **Phase 3：** 學習錯誤處理與備援機制
-4. **Phase 4：** 自訂 UI 與本地化
-5. **Phase 5：** 部署到生產環境
-
----
-
-**祝您使用愉快！** 🚀
