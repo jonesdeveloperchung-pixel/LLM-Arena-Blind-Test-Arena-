@@ -113,6 +113,14 @@ cd Benchmarking_Ollama_Models/
 
 ---
 
+## 📸 螢幕截圖
+
+| 螢幕截圖 1 | 螢幕截圖 2 | 螢幕截圖 3 |
+|---|---|---|
+| ![螢幕截圖 1](https://github.com/jonesdeveloperchung-pixel/LLM-Arena-Blind-Test-Arena-/blob/main/screens/screenshot-1.png) | ![螢幕截圖 2](https://github.com/jonesdeveloperchung-pixel/LLM-Arena-Blind-Test-Arena-/blob/main/screens/screenshot-2.png) | ![螢幕截圖 3](https://github.com/jonesdeveloperchung-pixel/LLM-Arena-Blind-Test-Arena-/blob/main/screens/screenshot-3.png) |
+
+---
+
 ## 🛠️ 開發階段進度 - **專案已完成!**
 
 | Phase | 狀態 | 功能概覽 |
